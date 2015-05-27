@@ -1,0 +1,16 @@
+#TITLE=Plain Text
+; Plain Text syntax file written by circulosmeos (circulosmeos.wordpress.com).
+; This file is NOT required for EditPlus to run correctly.
+
+#COMMENTON=[[
+#COMMENTOFF=]]
+#NUMBER_PATTERN=txt
+#SPECIAL_STX=txt
+
+#KEYWORD=80 chars lines
+-------------------------------------------------------------------------------
+
+#KEYWORD=other lines
+.................................................
+++++++++++++++++++++++++
+

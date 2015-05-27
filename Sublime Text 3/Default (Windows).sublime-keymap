@@ -1,0 +1,16 @@
+[
+	// circulosmeos insert datetime
+    { "keys": ["f5"], "command": "towebu_insert_date"},
+
+    // circulosmeos:
+	{ "keys": ["alt+1"], "command": "circulosmeos_insert_80charsline"},
+    { "keys": ["alt+3"], "command": "circulosmeos_insert_50charsline"},
+    { "keys": ["alt+4"], "command": "circulosmeos_insert_30charsline"},
+    { "keys": ["alt+2"], "command": "circulosmeos_insert_author_header"},
+    { "keys": ["alt+5"], "command": "circulosmeos_insert_doc_todo"},
+    { "keys": ["alt+6"], "command": "circulosmeos_insert_keyword_marker"},
+    { "keys": ["alt+7"], "command": "circulosmeos_insert_todo_marker"},
+    { "keys": ["alt+8"], "command": "circulosmeos_insert_resource_marker"},
+
+]
+

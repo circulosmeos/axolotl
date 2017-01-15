@@ -140,11 +140,11 @@ An example of statistics output (to stdout) from the script:
     Different tags found:   1839
 
     #tags %weighted %tasks lines  tag
-    1136  33.9%     30.7%  104858 anonymized_task_1333
-    253   10.6%     6.8%    32779 anonymized_task_234
-    99    8.2%      2.7%    25200 anonymized_task_3
-    260   7.3%      7.0%    22442 anonymized_task1_22
-    159   6.8%      4.3%    21077 anonymized_task1_139
+    1136  33.9%     30.7%  104858 anonymized_tag_1333
+    253   10.6%     6.8%    32779 anonymized_tag_234
+    99    8.2%      2.7%    25200 anonymized_tag_3
+    260   7.3%      7.0%    22442 anonymized_tag_22
+    159   6.8%      4.3%    21077 anonymized_tag_139
     ...
 
 License

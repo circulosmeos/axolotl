@@ -95,11 +95,11 @@ In common environments, just 20 to 50 keywords are needed to tag every task in t
 
 * links between parts of the document can be indicated using this tag convention for the link:   
 
-	&lt;#link text&gt;   
+	<#link text>   
 
 and the *destination* of the link marked with the same text and a colon prefix:   
 
-	:&lt;#link text&gt;
+	:<#link text>
 
 * visually striking sets for some common tasks, which are repeated (these can be easily found using Sublime's minimap):  
 (((DOCUMENTATION_PENDING)))   

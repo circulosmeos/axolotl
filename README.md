@@ -99,7 +99,7 @@ In common environments, just 20 to 50 keywords are needed to tag every task in t
 
 and the *destination* of the link marked with the same text and a colon prefix:   
 
-	:<#link text>
+	:<#link text>   
 
 * visually striking sets for some common tasks, which are repeated (these can be easily found using Sublime's minimap):  
 (((DOCUMENTATION_PENDING)))   

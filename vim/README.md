@@ -7,6 +7,8 @@ See [Description](https://github.com/circulosmeos/axolotl/).
 Installation
 ============
 
+Choose intructions for linux or for Windows and **after that**, please, edit *.vim/syntax/axolotl.vim* file to change the string "**YOUR_NAME_HERE**" for your name or initials, as preferred.
+
 ### Installation in linux
 
 Here are the configuration files for keybindings (alt+1 to alt+9) and color highlighting for text files edited with [vim](https://www.editplus.com/). *Note: tested with vim >= v8.0*.   

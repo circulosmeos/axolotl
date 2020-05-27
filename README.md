@@ -45,9 +45,10 @@ Installation
 
 Files for both keybindings and color highlighting are presented, for these editors:
 
+* [Sublime Text 3](https://github.com/circulosmeos/axolotl/tree/master/Sublime%20Text%203)
+* [vim](https://github.com/circulosmeos/axolotl/tree/master/vim)
 * [Editplus 3](https://github.com/circulosmeos/axolotl/tree/master/Editplus%203)
 * [Jota Text Editor](https://github.com/circulosmeos/axolotl/tree/master/Jota%20Text%20Editor) (for Android)
-* [Sublime Text 3](https://github.com/circulosmeos/axolotl/tree/master/Sublime%20Text%203)
 
 Description of the documentation system
 =======================================
@@ -56,7 +57,7 @@ Plain text (UTF-8) is (usually) enough for any documentation activity.
 
 These marks, keybindings and color highlighting are used with the help of the text editor:
 
-* names between double brackets represent metadata **tags** (highlighted as green color)   
+* names between double brackets represent metadata **tags** or **keywords** (highlighted as green color): they can be used to quickly find related tasks or a particular job if at least one keyword is remembered even if the content is not.    
 
     **[[circulosmeos]] [[20141127]] [[ntfs]] [[incident]]**   
 
@@ -64,52 +65,58 @@ These marks, keybindings and color highlighting are used with the help of the te
 
     **[[circulosmeos]] [[20141127]]**   
 
-  *Alt+2* keybind automatically creates this author+date heading. 
-  NOTE: if you use the code for Sublime Text, change your name in "circulosmeos Insert Preformatted Texts.py", by replacing the text "place your name here!".
-  *Alt+6* inserts [[]] with the cursor between the brackets.   
-  *F5* inserts actual date in ISO 8601 basic format.   
+  **Alt+2** keybind automatically creates this author+date heading.   
+
+  **Alt+6** inserts [[]] with the cursor between the brackets.   
+
+  **F5** inserts actual date in ISO 8601 basic format.   
 Next tags are keywords of that specific task.   
 This way, it is possible to search by keywords in the documentation.   
-In common environments, just 20 to 50 keywords are needed to tag every task in the whole documentation historic archive.   
+In common environments, just 20 to 50 keywords at most are needed to tag every task in the whole documentation historic archive.   
 
 
 * repeated characters are used as dividers between different parts of the document or to enclose certain blocks:
-	* task divider: 79x '-' (cranberry color) (*Alt+1*)    
+    * task divider: 79x '-' (cranberry color) (**Alt+1**)    
 
-	 -------------------------------------------------------------------------------   
-
-* 
-	* activity divider inside a task: 49x '.' (yellow color) (*Alt+3*)   
-
-	.................................................   
+        -------------------------------------------------------------------------------   
 
 * 
-	* divider that opens and closes a literal block of text: 24x '+' (yellow color) (*Alt+4*)   
+    * activity divider inside a task: 49x '.' (yellow color) (**Alt+3**)   
 
-	++++++++++++++++++++++++   
-	++++++++++++++++++++++++   
+        .................................................   
 
-* paths or hints are indicated between **<** and **>** in order to mark external or attached resources (yellow color) (*Alt+8*)    
+* 
+    * divider that opens and closes a literal block of text: 24x '+' (yellow color) (**Alt+4**)   
 
-	&lt;screen capture of my error.png&gt;, &lt;https://github.com/circulosmeos/axolotl&gt;   
+        ++++++++++++++++++++++++   
+        ++++++++++++++++++++++++   
+
+* paths or hints are indicated between **<** and **>** in order to mark external or attached resources (yellow color) (**Alt+8**)    
+
+        &lt;screen capture of my error.png&gt;, &lt;https://github.com/circulosmeos/axolotl&gt;   
 
 * links between parts of the document can be indicated using this tag convention for the link:   
 
-	<#link text>   
+        <#link text>   
 
 and the *destination* of the link marked with the same text and a colon prefix:   
 
 	:<#link text>   
 
 * visually striking sets for some common tasks, which are repeated (these can be easily found using Sublime's minimap):  
-(((DOCUMENTATION_PENDING)))   
-(((DOCUMENTATION_PENDING)))   
-(((DOCUMENTATION_PENDING)))   
-*Alt+5* for one line of this.   
---- PENDING ------ PENDING ------ PENDING ------ PENDING ---   
---- PENDING ------ PENDING ------ PENDING ------ PENDING ---   
---- PENDING ------ PENDING ------ PENDING ------ PENDING ---   
-*Alt+7* for one line of this.
+
+    **Alt+5** for one line of this:
+
+        (((DOCUMENTATION_PENDING)))   
+        (((DOCUMENTATION_PENDING)))   
+        (((DOCUMENTATION_PENDING)))   
+
+    **Alt+7** for one line of this:
+
+        --- PENDING ------ PENDING ------ PENDING ------ PENDING ---   
+        --- PENDING ------ PENDING ------ PENDING ------ PENDING ---   
+        --- PENDING ------ PENDING ------ PENDING ------ PENDING ---   
+
 
 Statistics script
 =================

@@ -78,22 +78,22 @@ In common environments, just 20 to 50 keywords at most are needed to tag every t
 * repeated characters are used as dividers between different parts of the document or to enclose certain blocks:
     * task divider: 79x '-' (cranberry color) (**Alt+1**)    
 
-        -------------------------------------------------------------------------------   
+            -------------------------------------------------------------------------------   
 
 * 
     * activity divider inside a task: 49x '.' (yellow color) (**Alt+3**)   
 
-        .................................................   
+            .................................................   
 
 * 
     * divider that opens and closes a literal block of text: 24x '+' (yellow color) (**Alt+4**)   
 
-        ++++++++++++++++++++++++   
-        ++++++++++++++++++++++++   
+            ++++++++++++++++++++++++   
+            ++++++++++++++++++++++++   
 
-* paths or hints are indicated between **<** and **>** in order to mark external or attached resources (yellow color) (**Alt+8**)    
+* paths or hints are indicated between **<** and **>** in order to mark external *attached* or *related* resources (yellow color) (**Alt+8**)    
 
-        &lt;screen capture of my error.png&gt;, &lt;https://github.com/circulosmeos/axolotl&gt;   
+        <screen capture of my error.png>, <https://github.com/circulosmeos/axolotl>   
 
 * links between parts of the document can be indicated using this tag convention for the link:   
 

@@ -11,7 +11,7 @@ Choose intructions for linux or for Windows and **after that**, please, edit *.v
 
 ### Installation in linux
 
-Here are the configuration files for keybindings (alt+1 to alt+9) and color highlighting for text files edited with [vim](https://www.editplus.com/). *Note: tested with vim >= v8.0*.   
+Here are the configuration files for keybindings (**Alt+1** to **Alt+9**) and color highlighting for text files edited with [vim](https://www.editplus.com/). *Note: tested with vim >= v8.0*.   
 Make a backup first if you wish!: some files may be overwritten.
 
 Copy these files to the *~user* directory:    

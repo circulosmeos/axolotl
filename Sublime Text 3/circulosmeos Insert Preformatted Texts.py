@@ -71,3 +71,8 @@ class circulosmeos_insert_resource_marker(sublime_plugin.TextCommand):
             '<> ', 
             1 )
         
+class circulosmeos_insert_resource_anchor_marker(sublime_plugin.TextCommand):
+    def run(self, edit):
+        circulosmeos_grouped_code.run( self, edit, 
+            ':<#> ', 
+            3 )

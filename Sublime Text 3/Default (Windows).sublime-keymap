@@ -11,6 +11,7 @@
     { "keys": ["alt+6"], "command": "circulosmeos_insert_keyword_marker"},
     { "keys": ["alt+7"], "command": "circulosmeos_insert_todo_marker"},
     { "keys": ["alt+8"], "command": "circulosmeos_insert_resource_marker"},
+    { "keys": ["alt+9"], "command": "circulosmeos_insert_resource_anchor_marker"},
 
 ]
 

@@ -36,6 +36,21 @@ Copy these files to the *user directory*:
 Start vim and open or create some text file:   
 now you can check your Alt+ 1 to 9 new key bindings and highlights.
 
+Notes on syntax
+===============
+
+In order to be able to use "ajolote" as synonym for "axolotl" when manually indicating a syntax:
+
+     :set syntax=ajolote
+
+A symbolic link can be made (in both linux and Windows) from *axolotl.vim* to *ajolote.vim*:
+
+	 $ ln -s axolotl.vim ajolote.vim
+
+	 ADMIN> mklink ajolote.vim axolotl.vim
+
+or just make a copy of *axolotl.vim*
+
 Notes on file type detection
 ============================
 

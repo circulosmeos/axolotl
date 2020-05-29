@@ -15,7 +15,7 @@ syn match axolotlSeparator3 /[\+]\{24}$/
 
 syn match axolotlKeyword /\[\[[^\]]\+\]\]/
 
-syn match axolotlInternalLinkAnchor /:<#[^>]\+>/
+syn match axolotlInternalLinkAnchor /:<#[^>]*>/
 syn match axolotlLink /<[^>]\+>/
 
 

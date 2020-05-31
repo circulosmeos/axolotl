@@ -17,7 +17,7 @@ nmap <M-3> <ESC>i.................................................<CR><ESC>
 nmap <M-4> <ESC>i++++++++++++++++++++++++<CR><ESC>
 nmap <M-5> <ESC>i(((DOCUMENTATION_PENDING))) <CR><ESC>
 nmap <M-6> <ESC>i[[]] <ESC>hhi
-nmap <M-2> <ESC>i[[YOUR_NAME_HERE]] [[]<ESC><F5>la] <ESC><M-6>
+nmap <M-2> <ESC>i[[YOUR_NAME_HERE]] [[]<ESC><F5>la]  <ESC><M-6>
 nmap <M-7> <ESC>i--- PENDING ------ PENDING ------ PENDING ------ PENDING ---<CR><ESC>
 nmap <M-8> <ESC>i<> <ESC>hi
 nmap <M-9> <ESC>i:<#> <ESC>hi

@@ -19,7 +19,7 @@ But also separate files with tasks names can be created.
 
 See [http://wp.me/p2FmmK-7E](https://circulosmeos.wordpress.com/2015/03/04/axolotl-a-simple-plain-text-documentation-system/).
 
-You can also download the project and open this page on your browser in order to take a glimpse of a documentation text file as seen by an axolotl "properly instructed" editor: "axolotl doc.html"
+You can also download the project and open this page on your browser in order to take a glimpse of a documentation text file as seen by an axolotl "properly instructed" editor: "[axolotl doc.html](https://github.com/circulosmeos/axolotl/tree/master/axolotl%20doc.html)"
 
 Brief Description
 =================

@@ -95,13 +95,13 @@ In common environments, just 20 to 50 keywords at most are needed to tag every t
 
         <screen capture of my error.png>, <https://github.com/circulosmeos/axolotl>   
 
-* links between parts of the document can be indicated using this tag convention for the link:   
+* links between parts of the document can be indicated using this tag convention for the link (yellow):   
 
         <#link text>   
 
-and the *destination* of the link marked with the same text and a colon prefix:   
+and the *destination* of the link marked with the same text and a colon prefix (blue):   
 
-	:<#link text>   
+        :<#link text>   
 
 * visually striking sets for some common tasks, which are repeated (these can be easily found using Sublime's minimap):  
 

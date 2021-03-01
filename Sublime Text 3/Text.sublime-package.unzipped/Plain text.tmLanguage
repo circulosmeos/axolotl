@@ -30,7 +30,7 @@
         </dict>
         <dict>
             <key>match</key>
-            <string>((\.{49})|(\+{24})|(&lt;[^\&gt;]+&gt;)|(https?://[^ ]+))</string>
+            <string>((\.{49})|(\+{24})|(&lt;[^\&gt;]+&gt;)|(https?://[^\s]+))</string>
             <key>name</key>
             <string>string.quoted.double.xml</string>
         </dict>

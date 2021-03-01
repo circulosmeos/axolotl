@@ -17,7 +17,7 @@ syn match axolotlKeyword /\[\[[^\]]\+\]\]/
 
 syn match axolotlInternalLinkAnchor /:<#[^>]*>/
 syn match axolotlLink /<[^>]\+>/
-syn match axolotlHttpLink /https\?:\/\/[^ ]\+/
+syn match axolotlHttpLink /https\?:\/\/[^ \t]\+/
 
 
 hi def link axolotlSeparator1           PreProc

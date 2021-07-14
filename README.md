@@ -45,7 +45,8 @@ Installation
 
 Files for both keybindings and color highlighting are presented, for these editors:
 
-* [Sublime Text 3](https://github.com/circulosmeos/axolotl/tree/master/Sublime%20Text%203)
+* [Sublime Text 3 & 4](https://github.com/circulosmeos/axolotl/tree/master/Sublime%20Text%203)
+* [Visual Studio Code](https://github.com/circulosmeos/axolotl/tree/master/Visual%20Studio%20Code)
 * [vim](https://github.com/circulosmeos/axolotl/tree/master/vim)
 * [Editplus 3](https://github.com/circulosmeos/axolotl/tree/master/Editplus%203)
 * [Jota Text Editor](https://github.com/circulosmeos/axolotl/tree/master/Jota%20Text%20Editor) (for Android)

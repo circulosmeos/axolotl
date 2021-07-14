@@ -1,0 +1,80 @@
+// Place your key bindings in this file to override the defaults
+[
+    //
+    // Axolotl key bindings:
+    //
+    // Please, substitute AUTHOR with your initials in key "alt+2"
+    {
+        "key": "alt+1",
+        "command": "type",
+        "when": "editorTextFocus && editorLangId == 'axolotl'",
+        "args": {
+            "text": "-------------------------------------------------------------------------------\n"
+        }
+    }
+    {
+        "key": "alt+2",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus && editorLangId == 'axolotl'",
+        "args": {
+            "snippet": "[[AUTHOR]] [[$CURRENT_YEAR$CURRENT_MONTH$CURRENT_DATE]] "
+        }
+    }
+    {
+        "key": "alt+3",
+        "command": "type",
+        "when": "editorTextFocus && editorLangId == 'axolotl'",
+        "args": {
+            "text": ".................................................\n"
+        }
+    }
+    {
+        "key": "alt+4",
+        "command": "type",
+        "when": "editorTextFocus && editorLangId == 'axolotl'",
+        "args": {
+            "text": "++++++++++++++++++++++++\n"
+        }
+    }
+    {
+        "key": "alt+5",
+        "command": "type",
+        "when": "editorTextFocus && editorLangId == 'axolotl'",
+        "args": {
+            "text": "(((DOCUMENTATION_PENDING)))\n"
+        }
+    }
+    {
+        "key": "alt+6",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus && editorLangId == 'axolotl'",
+        "args": {
+            "snippet": "[[$label]] "
+        }
+    }
+    {
+        "key": "alt+7",
+        "command": "type",
+        "when": "editorTextFocus && editorLangId == 'axolotl'",
+        "args": {
+            "text": "--- PENDING ------ PENDING ------ PENDING ------ PENDING --- \n"
+        }
+    }
+    {
+        "key": "alt+8",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus && editorLangId == 'axolotl'",
+        "args": {
+            "snippet": "<$tag> "
+        }
+    }
+    {
+        "key": "alt+9",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus && editorLangId == 'axolotl'",
+        "args": {
+            "snippet": ":<#$tag> "
+        }
+    }
+    // end of "Axolotl key bindings"
+]

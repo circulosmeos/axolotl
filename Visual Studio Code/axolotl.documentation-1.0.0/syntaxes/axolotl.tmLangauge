@@ -1,0 +1,75 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN"   "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0" >
+<!-- Generated via Iro -->
+<dict>
+  <key>fileTypes</key>
+  <array> 
+    <string>axolotl</string>
+   </array>
+  <key>name</key>
+  <string>axolotl</string>
+  <key>patterns</key>
+  <array> 
+    <dict>
+      <key>include</key>
+      <string>#main</string>
+    </dict>
+   </array>
+  <key>scopeName</key>
+  <string>source.axolotl</string>
+  <key>uuid</key>
+  <string></string>
+  <key>repository</key>
+  <dict>
+    <key>main</key>
+    <dict>
+      <key>patterns</key>
+      <array> 
+        <dict>
+          <key>match</key>
+          <string>((?&lt;!\-)\-{79}(?!\-))</string>
+          <key>name</key>
+          <string>keyword.control.exception.axolotl</string>
+        </dict>
+        <dict>
+          <key>match</key>
+          <string>(https?://[^\s]+)</string>
+          <key>name</key>
+          <string>constant.character.escape.regex.axolotl</string>
+        </dict>
+        <dict>
+          <key>match</key>
+          <string>((?&lt;!\.)\.{49}(?!\.))</string>
+          <key>name</key>
+          <string>constant.character.escape.regex.axolotl</string>
+        </dict>
+        <dict>
+          <key>match</key>
+          <string>((?&lt;!\+)\+{24}(?!\+))</string>
+          <key>name</key>
+          <string>constant.character.escape.regex.axolotl</string>
+        </dict>
+        <dict>
+          <key>match</key>
+          <string>(\[\[[^\]]*\]\])</string>
+          <key>name</key>
+          <string>comment.axolotl</string>
+        </dict>
+        <dict>
+          <key>match</key>
+          <string>(:\&lt;[^\x{003e}]*\&gt;)</string>
+          <key>name</key>
+          <string>keyword.axolotl</string>
+        </dict>
+        <dict>
+          <key>match</key>
+          <string>(\&lt;[^\x{003e}]*\&gt;)</string>
+          <key>name</key>
+          <string>constant.character.escape.regex.axolotl</string>
+        </dict>
+       </array>
+    </dict>
+  </dict>
+</dict>
+</plist>

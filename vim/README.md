@@ -24,8 +24,11 @@ Copy these files to the *~user* directory:
 
 In Windows *vim* can be used installed with pacman (*pacman -S vim*) after [MSYS2](https://msys2.github.io/) has been installed.
 
-vim *user directory*:   
+vim's msys2 *user directory*:   
 	**%PROGRAMFILES%\\msys64\\home\\USERNAME\\**
+
+Other packages may use:
+	**%USERPROFILE%\\.vim\\**
 
 Copy these files to the *user directory*:    
 

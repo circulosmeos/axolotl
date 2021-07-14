@@ -9,9 +9,9 @@ if exists("b:current_syntax")
   endif
 endif
 
-syn match axolotlSeparator1 /[\-]\{79}$/
-syn match axolotlSeparator2 /[\.]\{49}$/
-syn match axolotlSeparator3 /[\+]\{24}$/
+syn match axolotlSeparator1 /\(\-\)\@<![\-]\{79}\(\-\)\@!/
+syn match axolotlSeparator2 /\(\.\)\@<![\.]\{49}\(\.\)\@!/
+syn match axolotlSeparator3 /\(+\)\@<![\+]\{24}\(+\)\@!/
 
 syn match axolotlKeyword /\[\[[^\]]\+\]\]/
 

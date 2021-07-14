@@ -9,6 +9,8 @@ Installation
 
 Here are the configuration files for keybindings (**Alt+1** to **Alt+9**) and color highlighting for text files edited with [Visual Studio Code](https://code.visualstudio.com/). 
 
+Please, edit the file `keybindings.json` to change the string "AUTHOR" for your name or initials, as preferred.
+
 For key bindings, copy the file `keybindings.json` to:
 
 * On Windows: `%USERPROFILE%\AppData\Roaming\Code\User`

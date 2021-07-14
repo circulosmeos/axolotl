@@ -7,10 +7,10 @@ See [Description](https://github.com/circulosmeos/axolotl/).
 Installation
 ===========
 
-Here are the configuration files for keybindings (**Alt+1** to **Alt+9**) and color highlighting for text files edited with [Sublime Text 3](http://www.sublimetext.com/3).   
+Here are the configuration files for keybindings (**Alt+1** to **Alt+9**) and color highlighting for text files edited with [Sublime Text 3 & 4](http://www.sublimetext.com/3).   
 Make a backup first if you wish!: some files may be overwritten.
 
-Close Sublime Text 3 now!
+Close Sublime Text now!
 
 Copy these files to the Sublime Text user directory:
 * *Default (Windows).sublime-keymap*
@@ -29,11 +29,11 @@ now you can check your **Alt+1** to **Alt+9** new key bindings and highlights.
 
 ### Windows paths:   
 * Sublime Text user directory:   
-	**C:\Users\\&lt;User name&gt;\AppData\Roaming\Sublime Text 3\Packages\User**
+	**%USERPROFILE%\AppData\Roaming\Sublime Text 3\Packages\User**
 * file *Text.sublime-package* must be copied to:   
-	**C:\Users\\&lt;User name&gt;\AppData\Roaming\Sublime Text 3\Installed Packages**
+	**%USERPROFILE%\AppData\Roaming\Sublime Text 3\Installed Packages**
 * Text package directory cache *to delete*:   
-	**C:\Users\\&lt;User name&gt;\AppData\Local\Sublime Text 3\Cache\Text**
+	**%USERPROFILE%\AppData\Local\Sublime Text 3\Cache\Text**
 
 Documentation system description
 ================================

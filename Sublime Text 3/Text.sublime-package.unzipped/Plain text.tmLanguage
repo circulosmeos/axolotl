@@ -18,7 +18,7 @@
         </dict>
         <dict>
             <key>match</key>
-            <string>(\-{79})</string>
+            <string>((?&lt;!\-)\-{79}(?!\-))</string>
             <key>name</key>
             <string>keyword.control.wtl</string>
         </dict>
@@ -30,7 +30,7 @@
         </dict>
         <dict>
             <key>match</key>
-            <string>((\.{49})|(\+{24})|(&lt;[^\&gt;]+&gt;)|(https?://[^\s]+))</string>
+            <string>(((?&lt;!\.)\.{49}(?!\.))|((?&lt;!\+)\+{24}(?!\+))|(&lt;[^\&gt;]+&gt;)|(https?://[^\s]+))</string>
             <key>name</key>
             <string>string.quoted.double.xml</string>
         </dict>

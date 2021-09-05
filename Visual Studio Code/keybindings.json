@@ -11,7 +11,7 @@
         "args": {
             "text": "-------------------------------------------------------------------------------\n"
         }
-    }
+    },
     {
         "key": "alt+2",
         "command": "editor.action.insertSnippet",
@@ -19,7 +19,7 @@
         "args": {
             "snippet": "[[AUTHOR]] [[$CURRENT_YEAR$CURRENT_MONTH$CURRENT_DATE]] "
         }
-    }
+    },
     {
         "key": "alt+3",
         "command": "type",
@@ -27,7 +27,7 @@
         "args": {
             "text": ".................................................\n"
         }
-    }
+    },
     {
         "key": "alt+4",
         "command": "type",
@@ -35,7 +35,7 @@
         "args": {
             "text": "++++++++++++++++++++++++\n"
         }
-    }
+    },
     {
         "key": "alt+5",
         "command": "type",
@@ -43,7 +43,7 @@
         "args": {
             "text": "(((DOCUMENTATION_PENDING)))\n"
         }
-    }
+    },
     {
         "key": "alt+6",
         "command": "editor.action.insertSnippet",
@@ -51,7 +51,7 @@
         "args": {
             "snippet": "[[$label]] "
         }
-    }
+    },
     {
         "key": "alt+7",
         "command": "type",
@@ -59,7 +59,7 @@
         "args": {
             "text": "--- PENDING ------ PENDING ------ PENDING ------ PENDING --- \n"
         }
-    }
+    },
     {
         "key": "alt+8",
         "command": "editor.action.insertSnippet",
@@ -67,7 +67,7 @@
         "args": {
             "snippet": "<$tag> "
         }
-    }
+    },
     {
         "key": "alt+9",
         "command": "editor.action.insertSnippet",
@@ -75,6 +75,6 @@
         "args": {
             "snippet": ":<#$tag> "
         }
-    }
     // end of "Axolotl key bindings"
+    }
 ]

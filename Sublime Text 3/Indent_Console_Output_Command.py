@@ -8,7 +8,7 @@ class IndentConsoleOutputCommand(sublime_plugin.TextCommand):
         command_pattern = re.compile(r'^[\w@.-]+:.*[#\$] ')
 
         # Separadores que cortan indentación
-        stop_pattern = re.compile(r'^(-{79}|\.{39}|\+{24})$')
+        stop_pattern = re.compile(r'^(-{79}|\.{49}|\+{24})$')
 
         selections = self.view.sel()
 

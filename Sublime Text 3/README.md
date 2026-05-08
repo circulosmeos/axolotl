@@ -16,6 +16,7 @@ Copy these files to the Sublime Text user directory:
 * *Default (Windows).sublime-keymap*
 * *Preferences.sublime-settings*
 * *circulosmeos Insert Preformatted Texts.py*
+* *Indent_Console_Output_Command.py*
 * *Towebu Insert Date.py*
 
 Open the file "circulosmeos Insert Preformatted Texts.py" and change your name in it, by replacing the text "place your name here!" for your name or initials, as preferred.   
@@ -26,6 +27,10 @@ Delete your user cache for the Text package, or Sublime will pretend to haven't 
 
 Start Sublime and open or create some .txt file:   
 now you can check your **Alt+1** to **Alt+9** new key bindings and highlights.
+
+Also, use **F5** to insert a date in *YYYYMMDD* format.
+
+Also, you can use **Crtl+Alt+i** to indent your pasted linux console outputs, in case it is useful for you.
 
 ### Windows paths:   
 * Sublime Text user directory:   

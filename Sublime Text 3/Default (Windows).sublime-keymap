@@ -13,5 +13,8 @@
     { "keys": ["alt+8"], "command": "circulosmeos_insert_resource_marker"},
     { "keys": ["alt+9"], "command": "circulosmeos_insert_resource_anchor_marker"},
 
+    // circulosmeos:
+    { "keys": ["ctrl+alt+i"], "command": "indent_console_output" },
+
 ]
 
